@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BEA35A91EF29587006DF58D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEA35A81EF29587006DF58D /* main.m */; };
+		7BEA35AC1EF29587006DF58D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEA35AB1EF29587006DF58D /* AppDelegate.m */; };
+		7BEA35AF1EF29587006DF58D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEA35AE1EF29587006DF58D /* ViewController.m */; };
+		7BEA35B21EF29587006DF58D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEA35B01EF29587006DF58D /* Main.storyboard */; };
+		7BEA35B41EF29587006DF58D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEA35B31EF29587006DF58D /* Assets.xcassets */; };
+		7BEA35B71EF29587006DF58D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEA35B51EF29587006DF58D /* LaunchScreen.storyboard */; };
+		7BEA37C01EF386B1006DF58D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEA37BE1EF386B1006DF58D /* libsqlite3.0.tbd */; };
+		7BEA37C11EF386B1006DF58D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEA37BF1EF386B1006DF58D /* libsqlite3.tbd */; };
+		7BEA37D01EF38880006DF58D /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEA37C31EF38880006DF58D /* AccountKit.framework */; };
+		7BEA37D11EF38880006DF58D /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7BEA37C41EF38880006DF58D /* AccountKitStrings.bundle */; };
+		7BEA37D21EF38880006DF58D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEA37C51EF38880006DF58D /* Bolts.framework */; };
+		7BEA37DF1EF3E21E006DF58D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEA37DE1EF3E21E006DF58D /* HomeViewController.m */; };
+		7BEA37E31EF7B040006DF58D /* Resouce in Resources */ = {isa = PBXBuildFile; fileRef = 7BEA37E21EF7B040006DF58D /* Resouce */; };
+		7BEA37E51EF7BE01006DF58D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BEA37E41EF7BE01006DF58D /* HomeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BEA35A41EF29587006DF58D /* MitakeFBAccountLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MitakeFBAccountLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEA35A81EF29587006DF58D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BEA35AA1EF29587006DF58D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BEA35AB1EF29587006DF58D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BEA35AD1EF29587006DF58D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BEA35AE1EF29587006DF58D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BEA35B11EF29587006DF58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BEA35B31EF29587006DF58D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BEA35B61EF29587006DF58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BEA35B81EF29587006DF58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BEA37BE1EF386B1006DF58D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7BEA37BF1EF386B1006DF58D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7BEA37C31EF38880006DF58D /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		7BEA37C41EF38880006DF58D /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		7BEA37C51EF38880006DF58D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		7BEA37DD1EF3E21E006DF58D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7BEA37DE1EF3E21E006DF58D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7BEA37E21EF7B040006DF58D /* Resouce */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resouce; sourceTree = "<group>"; };
+		7BEA37E41EF7BE01006DF58D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BEA35A11EF29587006DF58D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEA37D01EF38880006DF58D /* AccountKit.framework in Frameworks */,
+				7BEA37C01EF386B1006DF58D /* libsqlite3.0.tbd in Frameworks */,
+				7BEA37C11EF386B1006DF58D /* libsqlite3.tbd in Frameworks */,
+				7BEA37D21EF38880006DF58D /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BEA359B1EF29587006DF58D = {
+			isa = PBXGroup;
+			children = (
+				7BEA35A61EF29587006DF58D /* MitakeFBAccountLogin */,
+				7BEA35A51EF29587006DF58D /* Products */,
+				7BEA37BD1EF386B0006DF58D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BEA35A51EF29587006DF58D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BEA35A41EF29587006DF58D /* MitakeFBAccountLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BEA35A61EF29587006DF58D /* MitakeFBAccountLogin */ = {
+			isa = PBXGroup;
+			children = (
+				7BEA37E21EF7B040006DF58D /* Resouce */,
+				7BEA37C21EF38831006DF58D /* FBSDK */,
+				7BEA35AA1EF29587006DF58D /* AppDelegate.h */,
+				7BEA35AB1EF29587006DF58D /* AppDelegate.m */,
+				7BEA35AD1EF29587006DF58D /* ViewController.h */,
+				7BEA35AE1EF29587006DF58D /* ViewController.m */,
+				7BEA35B01EF29587006DF58D /* Main.storyboard */,
+				7BEA35B31EF29587006DF58D /* Assets.xcassets */,
+				7BEA35B51EF29587006DF58D /* LaunchScreen.storyboard */,
+				7BEA35B81EF29587006DF58D /* Info.plist */,
+				7BEA35A71EF29587006DF58D /* Supporting Files */,
+				7BEA37DD1EF3E21E006DF58D /* HomeViewController.h */,
+				7BEA37DE1EF3E21E006DF58D /* HomeViewController.m */,
+				7BEA37E41EF7BE01006DF58D /* HomeViewController.xib */,
+			);
+			path = MitakeFBAccountLogin;
+			sourceTree = "<group>";
+		};
+		7BEA35A71EF29587006DF58D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BEA35A81EF29587006DF58D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BEA37BD1EF386B0006DF58D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BEA37BE1EF386B1006DF58D /* libsqlite3.0.tbd */,
+				7BEA37BF1EF386B1006DF58D /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BEA37C21EF38831006DF58D /* FBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7BEA37C31EF38880006DF58D /* AccountKit.framework */,
+				7BEA37C41EF38880006DF58D /* AccountKitStrings.bundle */,
+				7BEA37C51EF38880006DF58D /* Bolts.framework */,
+			);
+			path = FBSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BEA35A31EF29587006DF58D /* MitakeFBAccountLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BEA35BB1EF29587006DF58D /* Build configuration list for PBXNativeTarget "MitakeFBAccountLogin" */;
+			buildPhases = (
+				7BEA35A01EF29587006DF58D /* Sources */,
+				7BEA35A11EF29587006DF58D /* Frameworks */,
+				7BEA35A21EF29587006DF58D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MitakeFBAccountLogin;
+			productName = MitakeFBAccountLogin;
+			productReference = 7BEA35A41EF29587006DF58D /* MitakeFBAccountLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BEA359C1EF29587006DF58D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "金融研發一部-林忠賢";
+				TargetAttributes = {
+					7BEA35A31EF29587006DF58D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 7BEA359F1EF29587006DF58D /* Build configuration list for PBXProject "MitakeFBAccountLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BEA359B1EF29587006DF58D;
+			productRefGroup = 7BEA35A51EF29587006DF58D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BEA35A31EF29587006DF58D /* MitakeFBAccountLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BEA35A21EF29587006DF58D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEA37E31EF7B040006DF58D /* Resouce in Resources */,
+				7BEA35B71EF29587006DF58D /* LaunchScreen.storyboard in Resources */,
+				7BEA35B41EF29587006DF58D /* Assets.xcassets in Resources */,
+				7BEA35B21EF29587006DF58D /* Main.storyboard in Resources */,
+				7BEA37D11EF38880006DF58D /* AccountKitStrings.bundle in Resources */,
+				7BEA37E51EF7BE01006DF58D /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BEA35A01EF29587006DF58D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEA35AF1EF29587006DF58D /* ViewController.m in Sources */,
+				7BEA35AC1EF29587006DF58D /* AppDelegate.m in Sources */,
+				7BEA35A91EF29587006DF58D /* main.m in Sources */,
+				7BEA37DF1EF3E21E006DF58D /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BEA35B01EF29587006DF58D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BEA35B11EF29587006DF58D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BEA35B51EF29587006DF58D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BEA35B61EF29587006DF58D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BEA35B91EF29587006DF58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BEA35BA1EF29587006DF58D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BEA35BC1EF29587006DF58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+				);
+				INFOPLIST_FILE = MitakeFBAccountLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.mitake.3d3d3d3d.MitakeFBAccountLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BEA35BD1EF29587006DF58D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+					"$(PROJECT_DIR)/MitakeFBAccountLogin/FBSDK/FacebookSDKs-iOS-4.23.0\\ (1)",
+				);
+				INFOPLIST_FILE = MitakeFBAccountLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.mitake.3d3d3d3d.MitakeFBAccountLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BEA359F1EF29587006DF58D /* Build configuration list for PBXProject "MitakeFBAccountLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEA35B91EF29587006DF58D /* Debug */,
+				7BEA35BA1EF29587006DF58D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BEA35BB1EF29587006DF58D /* Build configuration list for PBXNativeTarget "MitakeFBAccountLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEA35BC1EF29587006DF58D /* Debug */,
+				7BEA35BD1EF29587006DF58D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BEA359C1EF29587006DF58D /* Project object */;
+}
